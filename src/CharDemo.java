@@ -1,3 +1,8 @@
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.PriorityBlockingQueue;
+
 public class CharDemo {
 
     public static void main(String[] args){
@@ -7,6 +12,8 @@ public class CharDemo {
         float f = f1;
 
         System.out.println(toCamelCase("ANKUR KUMAR "));
+
+        BlockingQueue<String> queue = new PriorityBlockingQueue<>();
 
     }
 
